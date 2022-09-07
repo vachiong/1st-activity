@@ -1,0 +1,431 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+  
+header{
+    background-image: url(https://i.pinimg.com/originals/8b/7f/bc/8b7fbc2e623720393ad7ffa7e4896eac.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.open img{
+    width: 300px;
+    height: 500px;
+    position: relative;
+    animation: mymove 5s infinite; 
+    animation-timing-function: ease-in;
+    padding-top: 200px;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 1050px;}
+  }
+
+
+ul{
+    float: right;
+    margin-top: 10px;
+    padding-right: 50px;
+    box-sizing: 30px;
+}
+ul a {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 15px 40px;
+    transition: 0.5s ease;
+    padding-right:30px;
+    position: relative;
+    font-family: 'Rubik Maze';
+    font-size: 25px;
+    text-align: center;
+    color: rgb(8, 6, 6);
+    box-shadow: 2px 2px 4px rgb(104, 79, 79);
+
+}
+ul  a:hover{
+    color:black;
+    background-image: url(https://i.pinimg.com/550x/da/65/db/da65db960026a6139ab5d393b362b0b1.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-size: 80px;
+    padding-bottom: 290px;
+}
+
+.title h1 {
+
+    text-align: center;
+    padding:5px 20px;
+    background:#f5f5f56c;
+    font-family: 'Amatic SC', cursive;
+    border-radius:50px;
+    margin:0px;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 4s steps(12,end) forwards,
+              blink 1s infinite;
+  }
+  @keyframes typing {
+    0% { width:0% }
+    100% { width:100% }
+  }
+  @keyframes blink {
+    0%,100% {
+      border-right:20px solid transparent;
+    }
+    50% {
+      border-right:20px solid #222;
+    }
+  }
+
+/* ----------------------about------------------------- */
+.bg{
+    
+    background-image:url(https://i.pinimg.com/originals/5a/2b/90/5a2b903ceda31d8b5b39a0234420e5c7.gif);
+    background-size: cover;
+    background-position: center;
+
+}
+.Intro {
+    font-family: 'Rubik Maze', cursive;
+    color: black;
+    padding: 80px 55px;
+    position: absolute;
+    font-size: 20px;   
+}
+.Intro h1{
+    padding: 10px 15px;
+    text-align: center;
+    color: rgb(173, 123, 123);
+    text-shadow: 2px 2px 4px rgb(44, 36, 36);
+}
+fieldset{
+    background-color: #eeeeee;
+    width:800px;
+    height: 450px;
+    border-radius: 15px 50px 30px;
+    
+}
+legend {
+    background-color: gray;
+    color: white;
+    padding: 10px 30px;
+}
+  
+.content img {
+    width: 500px;
+    height:550px;
+    padding-left: 800px;
+    margin-top: 55px;
+    padding-bottom: 50px;
+}
+.info {
+    font-size: 24px;
+    padding-left: 190px;
+    padding-top:30px;
+    font-family: 'Pangolin', cursive;
+}
+.passion{
+    text-align: center;
+    padding-top: 20px;
+    padding-left:50px;
+    font-family: 'Rubik Mono One';
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 4px rgb(104, 79, 79);
+
+}
+.bg2{
+    background-image:url(https://i.pinimg.com/originals/5a/2b/90/5a2b903ceda31d8b5b39a0234420e5c7.gif);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+/* ------first------ */
+.s img{
+    padding-top:50px;
+    padding-left:90px;
+    width: 350px;
+    height:270px;
+    position: absolute;
+
+}
+
+.des1{
+    font-family: 'Pangolin', cursive;
+    color: black;
+    position: absolute;
+    padding-top: 90px;
+    font-size: 20px;
+    padding-left: 378px;
+    
+}
+.des1 fieldset{
+    background-color: #eeeeee;
+    width: 400px;
+    height: 150px;
+    border-radius: 50px 10px;
+    box-shadow: 20px 20px 50px 10px pink inset;
+}
+.des1 legend{
+    background-color: gray;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 500px;
+}
+.info2{
+    font-size: 15px;
+    padding-left: 150px;
+    padding-top:20px;
+    font-family: 'Pangolin', cursive;
+}
+/* ------second------ */
+.t img{
+    padding-left:920px;
+    width: 350px;
+    height:300px;
+    position: absolute;
+    padding-top: 280px;
+}
+.des2{
+    font-family: 'Pangolin', cursive;
+    color: black;
+    position: absolute;
+    padding-top: 350px;
+    font-size: 20px;
+    padding-left: 380px;
+    
+}
+
+.des2 fieldset{
+    background-color: #eeeeee;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px 50px;
+    box-shadow: 20px 20px 50px 10px pink inset;
+}
+.des2 legend{
+    background-color: gray;
+    color: white;
+    padding: 10px 30px;
+    margin-right: 500px;
+}
+.info3{
+    font-size: 15px;
+    padding-left: 180px;
+    padding-top:15px;
+    font-family: 'Pangolin', cursive;
+}
+/* ------third------ */
+.u img{
+    padding-left:90px;
+    width: 350px;
+    height:270px;
+    position: absolute;
+    padding-top: 550px;
+    
+
+}
+.des3{
+    font-family: 'Pangolin', cursive;
+    color: black;
+    position: absolute;
+    padding-top: 610px;
+    font-size: 20px;
+    padding-left: 378px;
+    
+}
+
+.des3 fieldset{
+    background-color: #eeeeee;
+    width: 400px;
+    height: 150px;
+    border-radius: 50px 10px;
+    box-shadow: 20px 20px 50px 10px pink inset;
+}
+.des3 legend{
+    background-color: gray;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 500px;
+}
+.info4{
+    font-size: 15px;
+    padding-left: 150px;
+    padding-top:15px;
+    font-family: 'Pangolin', cursive;
+}
+/* ------fourth------ */
+.v img{
+    padding-left:920px;
+    width: 350px;
+    height:300px;
+    position: absolute;
+    padding-top:805px;
+    
+
+}
+.des4{
+    font-family: 'Pangolin', cursive;
+    color: black;
+    position: absolute;
+    padding-top: 855px;
+    font-size: 20px;
+    padding-left: 380px;
+    
+}
+
+.des4 fieldset{
+    background-color: #eeeeee;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px 50px;
+    box-shadow: 20px 20px 50px 10px pink inset;
+}
+.des4 legend{
+    background-color: gray;
+    color: white;
+    padding: 10px 30px;
+    margin-right: 500px;
+}
+.info5{
+    font-size: 15px;
+    padding-left: 160px;
+    padding-top:15px;
+    font-family: 'Pangolin', cursive;
+}
+/* ------fifth------ */
+.w img{
+    padding-left:100px;
+    width: 350px;
+    height:270px;
+    position: absolute;
+    padding-top:1070px;
+    
+
+}
+.des5{
+    font-family: 'Pangolin', cursive;
+    color: black;
+    position: absolute;
+    padding-top: 1130px;
+    font-size: 20px;
+    padding-left: 378px;
+    
+}
+
+.des5 fieldset{
+    background-color: #eeeeee;
+    width: 400px;
+    height: 150px;
+    border-radius: 50px 10px;
+    box-shadow: 20px 20px 50px 10px pink inset;
+}
+.des5 legend{
+    background-color: gray;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 500px;
+}
+.info6{
+    font-size: 15px;
+    padding-left: 150px;
+    padding-top:15px;
+    font-family: 'Pangolin', cursive;
+}
+/* ------sixth------ */
+.x img{
+    padding-left:920px;
+    width: 350px;
+    height:300px;
+    position: absolute;
+    padding-top:1300px;
+    
+
+}
+.des6{
+    font-family: 'Pangolin', cursive;
+    color: black;
+    position: absolute;
+    padding-top: 1375px;
+    font-size: 20px;
+    padding-left: 380px;
+    
+}
+
+.des6 fieldset{
+    background-color: #eeeeee;
+    width: 400px;
+    height: 160px;
+    border-radius: 10px 50px;
+    box-shadow: 20px 20px 50px 10px pink inset;
+}
+.des6 legend{
+    background-color: gray;
+    color: white;
+    padding: 10px 30px;
+    margin-right: 460px;
+}
+.info7{
+    font-size: 15px;
+    padding-left: 160px;
+    padding-top:10px;
+    font-family: 'Pangolin', cursive;
+}
+/* ------fifth------ */
+.y img{
+    padding-left:100px;
+    width: 350px;
+    height:270px;
+    position: absolute;
+    padding-top:1570px;
+    padding-bottom: 30px;
+    
+
+}
+.des7{
+    font-family: 'Pangolin', cursive;
+    color: black;
+    position: absolute;
+    padding-top: 1640px;
+    font-size: 20px;
+    padding-left: 388px;
+    
+}
+
+.des7 fieldset{
+    background-color: #eeeeee;
+    width: 400px;
+    height: 150px;
+    border-radius: 50px 10px;
+    box-shadow: 20px 20px 50px 10px pink inset;
+}
+.des7 legend{
+    background-color: gray;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 460px;
+}
+.info8{
+    font-size: 15px;
+    padding-left: 150px;
+    padding-top:20px;
+    font-family: 'Pangolin', cursive;
+}
+

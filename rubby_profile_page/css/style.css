@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color:#020c1b;
+height: 80px;   
+color: white;
+position: fixed;
+width: 100%;
+z-index: 3; 
+}
+
+
+.logo img{
+  width: 150px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.navlink ul{
+  display: flex;
+  padding: 30px;
+  
+}
+
+
+.navlink{
+margin-right: 50px;
+
+}
+.navlink ul li a{
+  text-decoration: none;
+  color:#ccd6f6;
+}
+.navlink ul li {
+  list-style: none;
+  padding-right: 70px;
+  font-family:monospace ;
+  
+  font-size: 15px;
+
+}
+
+.navlink ul li a:hover{
+  color:  #64ffda;
+  cursor: pointer;
+}
+
+
+
+.footer {
+  background-color:#020c1b;
+  height: 60px;
+  color: #a8b2d1;
+  font-family: monospace;
+  font-size: 12px;
+  
+}
+
+
+.main {
+  margin-top: 100px;
+  text-align: left;
+  padding-top: 100px;
+  background-color: #020c1b;
+  height: 2000px;
+  font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.aside-1 {
+    background-color: #020c1b
+}
+
+.aside-2 {
+    /* background-color:#020c1b; */
+position: fixed;
+right: 0;
+bottom: 0;
+}
+
+.email a{
+  margin: 50px 20px;
+    padding: 10px;
+    font-family:monospace;
+    font-size:13px;
+    line-height: 18px;
+    letter-spacing: 5px;
+    writing-mode: vertical-rl;
+    display: inline-block;
+    text-decoration: none;
+    color: #a8b2d1;
+    position: relative;
+}
+
+.social{
+  margin: 50px 0px;
+
+}
+
+.social ul li {
+  padding-top: 20px;
+}
+
+
+
+@media all and (min-width: 600px) {
+  .aside { flex: 0.3 0 0; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+
+.intro h1{
+    font-family: monospace;
+    color: #64ffda;
+
+}
+
+.intro h2{
+    font-size: 80px;
+    color: #ccd6f6;
+
+
+}
+
+.intro h3{
+    font-size: 70px;
+    color: #8892b0;
+    margin-top: -20px;
+
+
+}
+.intro p{
+    font-size: 20px;
+    width: 540px;
+    color: #8892b0;
+    line-height: 26px;
+    margin-top: 20px;
+
+}
+
+.about{
+    /* padding: 100px 0px 100px 50px; */
+    margin-top: 350px;
+    color: #ccd6f6;
+}
+.about p{
+    width: 510px;
+    margin-top: 30px;
+    text-align: justify;
+    color: #8892b0;
+    font-size: 20px;
+
+}
+
+.about h2{
+    font-size: 32px;
+}
+
+
+img.framed {
+    box-shadow:
+      -50px -50px 0 -40px #64ffda,
+      50px 50px 0 -40px #64ffda;
+  }
+
+  .aboutMe{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
+  }
+
+  .image img{
+    max-width: 350px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+
+
+
+  .passion{
+    margin-top: 200px;
+    color: #ccd6f6;
+    float: right;
+    margin-right: 119px;
+
+  }
+
+  .passion h2{
+    font-size: 32px;
+
+  }
+
+  .passions{
+    list-style: none;
+    width: max-content;
+
+  }
+
+  .passions button:hover{
+    background-color: #112240;
+    color: #64ffda;
+    outline: 0px;
+
+  }
+
+  .passions button{
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 59px;
+    padding: 0px 40px 5px;
+    border-left: 2px solid #233554;
+    background-color: transparent;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: left;
+    color: #8892b0;
+
+  }
+.passions button{
+  border: 0px;
+}
+
+.passions button.active{
+  color: #64ffda;
+}
+
+.navlink ul li a.active{
+  color:  #64ffda;
+
+}
+
+.p_section{
+  display: flex;
+  margin-top: 30px
+}
+
+.passionContent{
+  margin-left: 20px;
+}
+
+.tabcontent p{
+  font-size: 20px;
+  width: 570px;
+   color: #8892b0;
+   line-height: 23px;
+   padding: 20px 0 0 0px;
+   text-align: justify;
+}
+
+.tabcontent h3{
+  font-size: 22px;
+}
+
+.social{
+  width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: #a8b2d1; 
+    cursor: pointer;
+   
+}
+
+.social ul li a{
+  color: #a8b2d1;
+}
+
+.social ul li{
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+
+.navlink a::before{
+  content: '';
+  position: absolute;
+  height: 1px;
+  bottom: 40px;
+  border-radius: 10px;
+  background-color: #64ffda;
+  transform-origin: right; /*from left it will go directly to right*/
+  transform: scaleX(0); /*makes the element disapper by making the size to zero*/
+  transition: transform .3s ease-in-out;
+}
+
+.navlink #a::before{
+  width: 40px;
+}
+
+.navlink #p::before{
+  width: 60px;
+}
+
+.navlink a:hover::before{
+  transform-origin: left;
+  transform: scaleX(1);
+}
