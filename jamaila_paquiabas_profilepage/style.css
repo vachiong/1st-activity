@@ -1,0 +1,223 @@
+:root {
+    --blue: #07246D;
+    --pink: #FE70AD;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+    background-image: linear-gradient(252.44deg, rgba(17, 44, 114, 0.848) 3%, rgba(215, 107, 166, 0.527) 64.28%);
+}
+/* hide scrollbar */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+fieldset::-webkit-scrollbar {
+    display: none;
+}
+
+
+.favorites::-webkit-scrollbar {
+    display: none;
+}
+/* for my social media accounts */
+.media {
+    position: relative;
+
+}
+#facebook {
+    position: absolute;
+    top: 90%;
+}
+#instagram {
+    position: absolute;
+    top: 105%;
+}
+#linkedin {
+    position: absolute;
+    top: 75%;
+}
+#snapchat {
+    position: absolute;
+    top: 118%;
+    left: -19px;
+
+}
+/* for the navigation bar */
+
+nav {
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: var(--blue);
+    padding-left: 2rem;
+    font-size: larger;
+}
+
+nav ul li .links {
+    line-height: 10rem;
+    padding: 0em 4em;
+}
+
+nav ul li:first-child {
+    margin-right: auto;
+}
+
+
+/* for my logo */
+
+.icon {
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--blue);
+}
+
+.icon2 {
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--pink);
+    margin-left: 50%;
+    margin-top: -32%;
+}
+
+
+/* for my intro next to navbar */
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.secondsection>h1 {
+    font-size: 45px;
+    letter-spacing: 0.1em;
+    margin-top: 10%;
+    color: var(--pink);
+}
+
+span.say {
+    margin-left: 25%;
+    font-size: 30px;
+    color: var(--blue);
+}
+
+
+/* hobbies */
+.loveanime ,.lovebooks, .lovemovies{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 50% 2fr;
+}
+.loveanime>p , .lovebooks>p, .lovemovies>p{
+    padding: 40px;
+    text-align: justify;
+}
+fieldset {
+    overflow: auto;
+    height: 300px;
+    box-shadow: 5px 5px 0px black;
+    background-image: linear-gradient(90deg, rgb(254, 112, 174) 0%, rgb(7, 36, 109) 100%);
+    border: none;
+}
+
+legend {
+    font-weight: bolder;
+    font-size: larger;
+    color: var(--blue);
+}
+
+video {
+    margin: 0% 55px;
+}
+
+/* titles */
+
+.firsttitle,
+.secondtitle {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+/* informationcorner */
+.informationcorner {
+    display: grid;
+    grid-template-columns: 900px 2fr;
+    padding: 20px;
+
+}
+
+.dyk {
+    margin: 0% 10%;
+}
+.dyk>h2 {
+    text-align: center;
+}
+
+.dyk2{
+    padding: 2% 20%;
+    margin-bottom: 5%;
+}
+.dyk2>h2{
+    text-align: center;
+}
+
+/* favorites */
+.favorites {
+    height: 80vh;
+    overflow: auto;
+}
+
+section>img {
+    width: 100px;
+    margin: auto;
+}
+
+.fst {
+    border: 1px solid black;
+    display: flex;
+    justify-content: left;
+    margin: 10px 0px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10%;
+}
+.fst>section{
+    padding:0px 20px;
+}
+
+.food,
+.shy, .oa, .scared {
+    display: flex;
+}
+
+.food>p,
+.shy>p,
+.oa>p,
+.scared>p {
+    padding: 0px 25px;
+    text-align: justify;
+}
+ hr{
+    width: 80%;
+    border-color: black;
+ }
+
