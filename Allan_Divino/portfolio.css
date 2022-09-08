@@ -1,0 +1,95 @@
+* {
+    margin: 0%;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(img/cofe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.page{
+    background-color: rgb(163, 89, 89);
+    width: 1400px;
+    height: 80px;
+    opacity: .8;
+   border-radius: 5px;
+   margin-right: 10px;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 10mm;
+    margin-left:30px ;
+  
+}
+.bars h2, p{
+
+   margin-top: 90px;
+   margin-left: 550px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10mm;
+    margin-left:100px ;   
+}
+h2{
+    font-size: 12mm;
+}
+p{
+    font-size: 6mm;
+    margin-top: -200px;
+    font-style: italic;
+    font-family: cursive;
+}
+.bars img{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    margin-top: -100px;
+    margin-left: 150px;
+}
+.hobbies{
+    margin-top: 100PX;
+    display: inline-flex;
+   padding: 0;
+}
+
+.swim{
+    position: relative;
+    width: 200px;
+    max-width: 300px;
+    padding: 10px;
+}
+.image{
+    display: block;
+  width: 180px;
+  height: 180px;
+  border-radius: 30px;
+  border:2px solid black;
+  margin-left: 10px;
+ 
+
+}
+.overlay{
+    position: absolute; 
+bottom: 0;
+    background: rgb(222, 47, 47);
+    border-radius: 5px;
+    color: #f1f1f1; 
+    width: 150px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    text-align: center;
+    margin-left: 20px;
+
+}
+.swim:hover .overlay{
+    opacity: 1;
+    box-shadow: 0 0 10px 10px black;
+}
