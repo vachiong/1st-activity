@@ -1,0 +1,234 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to Top left, black, Darkcyan,pink);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    float: left;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: space-between;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+.first{
+    background-color: rgb(192, 255, 224);
+    width: 50%;
+    height: 20%;
+    float: left;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(192, 255, 224) ;
+}
+
+.text1 p{
+    float:left;
+    padding: 20px 20px 20px 25px;
+    text-align: justify;
+    font-size: 25px;
+
+    
+}
+
+.text1 h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 25px 10px 20px 10px;
+}
+
+.text1 h1 i span{
+  display: inline-block;
+  animation: wave 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes wave {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+.image1 img{
+    float: right;
+    width: 200px;
+    margin-right: 60px;
+}
+
+.image1 img{
+    cursor: pointer;
+}
+.image1 img:hover{
+    transform: scale(0.8) rotate(-5deg);
+    box-shadow: 25px 32px 75PX rgba(68, 77, 136, 0.2);
+}
+
+.image1 img {
+    overflow: hidden;
+   
+  }
+  
+  /* Second Passion */
+
+  .second{
+    background-color: rgb(236, 173, 242);
+    width:50%;
+    height: 20%;
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(236, 173, 242);
+}
+
+.text2 h1 i span{
+    display: inline-block;
+    animation: wave 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes wave {
+      0%,40%,100% {
+        transform: translateY(0)
+      }
+      20% {
+        transform: translateY(-20px)
+      }
+    }
+.text2 p{
+    float:right;
+    padding: 20px 20px 20px 25px;
+    text-align: justify;
+    font-size: 20px;
+
+    
+}
+
+.text2 h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 25px 10px 20px 10px;
+}
+
+.image2 img{
+    float: left;
+    width: 15%;
+    height: 310px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+.image2 img{
+    cursor: pointer;
+}
+.image2 img:hover{
+    transform: scale(0.8) rotate(-5deg);
+    box-shadow: 25px 32px 75PX rgba(68, 77, 136, 0.2);
+}
+
+.image2 img {
+    overflow: hidden;
+   
+  }
+
+
+  /* Third passion*/
+  .third{
+    background-color: rgb(192, 255, 224);
+    width: 50%;
+    height: 20%;
+    float: left;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(192, 255, 224) ;
+}
+
+.text3 h1 i span{
+    display: inline-block;
+    animation: wave 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes wave {
+      0%,40%,100% {
+        transform: translateY(0)
+      }
+      20% {
+        transform: translateY(-20px)
+      }
+    }
+.text3 p{
+    float:left;
+    padding: 20px 20px 20px 25px;
+    text-align: justify;
+    font-size: 25px;
+
+    
+}
+
+.text3 h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 25px 10px 20px 10px;
+}
+
+.image3 img{
+    float: right;
+    width:35%;
+    height: 360px;
+    margin-top: 60px;
+    margin-right: 60px;
+    border-radius: 30px;
+}
+
+.image3 img{
+    cursor: pointer;
+}
+.image3 img:hover{
+    transform: scale(0.8) rotate(-5deg);
+    box-shadow: 25px 32px 75PX rgba(68, 77, 136, 0.2);
+}
+
+.image3 img {
+    overflow: hidden;
+   
+  }
