@@ -1,0 +1,347 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .header {
+        min-height: 100vh;
+        width: 100%;
+        background-image: url(./images/OKIES.jpg);
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #navbar {
+        background-color: grey;
+    }
+
+    #navbar ul{
+        margin-left: 20mm;
+    }
+
+    #navbar ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+    }
+    #navbar ul li a {
+        color:white;
+        text-decoration: none;
+    }
+    #navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: green;
+    }
+    .text-box {
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 0%;
+        
+    }
+
+    .text-box h1 {
+        font-size: 62px;
+        margin-top: 5%;
+        font-family: 'Spectral SC', serif;
+    }
+
+    .text-box p {
+        margin: 10px 0 40px;
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Spectral SC', serif;
+    }
+    .hero-btn {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 15px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 2%;
+    }
+
+    .hero-btn:hover {
+        border: 1px solid yellow;
+        background: yellow;
+        transition: .5s;
+    }
+
+
+    /* nav {
+        display: flex;
+        height: 3%;
+        text-align: center;
+        background-color: rgba(255, 192, 203, 0.397);
+    } */
+
+    /* .logo {
+        width: 100px;
+        height: auto;
+        margin-left: 20px;
+    }
+
+
+    nav img {
+        width: 150px;
+    }
+
+    .nav-links {
+        flex: 1;
+        margin-top: 5mm;
+        text-align: right;
+        margin-right: 35mm;
+    }
+
+    .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+
+    .nav-links ul li a {
+        color: rgb(3, 3, 3);
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .nav-links ul li::after {
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #f44336;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+
+    .nav-links ul li:hover::after {
+        width: 100%;
+    }
+
+    .text-box {
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 3%;
+    }
+
+    .text-box h1 {
+        font-size: 62px;
+        margin-top: 5%;
+        font-family: 'Spectral SC', serif;
+    }
+
+    .text-box p {
+        margin: 10px 0 40px;
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Spectral SC', serif;
+    }
+
+    .hero-btn {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 2%;
+    }
+
+    .hero-btn:hover {
+        border: 1px solid rgb(215, 230, 8);
+        background: #ff0000;
+        transition: 1s;
+    }
+
+    nav .fa {
+        display: none;
+    }
+
+    @media(max-width: 700px) {
+        .text-box h1 {
+            font-size: 20px;
+        }
+
+        .nav-links ul li {
+            display: block;
+        }
+
+        .nav-links {
+            position: absolute;
+            background: #f44336;
+            height: 100vh;
+            width: 200px;
+            top: 0;
+            right: -200px;
+            text-align: left;
+            z-index: 2;
+            font-family: 'Cutive Mono', monospace;
+        }
+
+        nav .fa {
+            display: block;
+            color: #fff;
+            margin: 10px;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        .nav-links ul {
+            padding: 30px;
+        }
+    } */
+
+    /*----- Canlaon -----*/
+
+    .Canlaon {
+        width: 80%;
+        text-align: center;
+        padding-top: 100px;
+        margin-left: 30mm;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Tillana', cursive;
+    }
+
+    p {
+        color: black;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px
+    }
+
+    .row h3 {
+        margin-top: 5%;
+    }
+
+    .Canlaon-col {
+        flex-basis: 31%;
+        background: rgba(67, 224, 132, 0.692);
+        border-radius: 10px;
+        margin-bottom: 5%;
+        justify-content: center;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        width: 600px;
+        transition: 0.5s;
+    }
+
+    .footer {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 50px;
+        color: #fff;
+        background-color: darkblue;
+    }
+
+    .footer>* {
+        flex: 1 100%;
+    }
+
+    .l-footer {
+        margin-right: 1.25em;
+        margin-bottom: 2em;
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .footer ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .footer li {
+        line-height: 2em;
+    }
+
+    .footer a {
+        text-decoration: none;
+    }
+
+    .r-footer {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .r-footer>* {
+        flex: 1 50%;
+        margin-right: 1.25em;
+    }
+
+    .box a {
+        color: #999;
+    }
+
+    .h-box {
+        column-count: 2;
+        column-gap: 1.25em;
+    }
+
+    .b-footer {
+        text-align: center;
+        color: #999;
+        padding-top: 10px;
+        margin: 0px;
+    }
+
+    .b-footer p {
+        color: white;
+        font-size: 20px;
+        font-family: 'Tillana', cursive;
+    }
+
+    .l-footer p {
+        color: #999;
+        font-size: medium;
+    }
+
+    .l-footer img {
+        height: 200px;
+        width: 300px;
+    }
+
+    @media screen and (min-width: 600px) {
+        .r-footer>* {
+            flex: 1;
+        }
+
+        .features {
+            flex-grow: 2;
+        }
+
+        .l-footer {
+            flex: 1 0px;
+        }
+
+        .r-footer {
+            flex: 2 0px;
+        }
+    }
