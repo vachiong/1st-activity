@@ -1,0 +1,291 @@
+body{
+    background-color: darkgrey;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: 95vh;
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: gray;
+    box-shadow: 2px 2px 2px pink;
+    padding: 0px 5%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    color: pink;
+    font-size: 22px;
+}
+
+.active{
+    font-weight: bold;
+    color: pink;
+}
+
+.text-container p:nth-child(1){
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 24px;
+}
+
+.text-container p:nth-child(2){
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: pink;
+    font-size: 55px;
+}
+
+.text-container p:nth-child(3){
+    font-family: 'Times New Roman', Times, serif;
+    color: #1a1a1a;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.text-container p{
+    line-height: 0px;
+    margin: 45px; 
+}
+
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 52%;
+    transform:translate(-13%, -42%);
+}
+
+.model{
+    height: 560px;
+    position: absolute;
+    bottom: 0px;
+    left: 79%;
+    top: 80px;
+    transform: translateX(-70%);
+}
+
+.about-container{
+    width: 80%;
+    height: 330px;
+    background-color: gray;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px pink;
+    display: flex;
+    margin: 7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-container img{
+    height: 250px;
+    margin: 25px;
+}
+
+.about-container text{
+    width: 550px;
+}
+
+.about-container p:nth-child(1){
+    color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:39px;
+    line-height: 0px;
+}
+
+.about-container p:nth-child(2){
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 5px;
+}
+
+.about-container p:nth-child(3),
+.about-container p:nth-child(4){
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.passion{
+    height: 600px;
+    background-color: darkgray;
+}
+
+.passion-text{
+    width: 500px;
+    margin: 100px 570px -75px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.box1, .box2, .box3{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20vh;
+    text-align: center;
+}
+
+.box1 span,
+.box2 span,
+.box3 span{
+    width: 40px;
+    height: 40px;
+    background-color: #cbcbcb;
+    margin-top: -50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.box1 .details{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box2 .details{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box3 .details{
+    margin-left: 20px;
+    margin-right: 20px;
+}   
+
+footer{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    font-family:'Times New Roman', Times, serif;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    line-height: 10px;
+}
+
+footer p:nth-child(2){
+        font-size: 16px;
+        color: #000;
+        width: 600px;
+        text-align: center;
+}
+
+.icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons i{
+    color: darkgray;
+}
+
+.icons a:hover,
+.iconsb a:hover{
+    background-color: #0000;
+    box-shadow:2px 2px 12px rgba(0,0,0,0,2);
+    transition: all ease 0.5s;
+}
+
+.icons a:hover i,
+.iconsb a:hover i{
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+.iconsb{
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateX(-50%);
+}
+
+.iconsb a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #cbcbcb;
+    border: 1px solid pink;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0,2);
+}
+
+.iconsb i{
+    color: #2b2b2b;
+    font-size: 20px;
+}
