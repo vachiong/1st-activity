@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 270vh;
+    background-image: url(https://i.pinimg.com/originals/56/72/e4/5672e475a0adc99bf50c326a83b3f088.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative; 
+}
+.first{
+    text-align: center;
+    color: red;
+    padding-top: 5%;
+    font-size: 30px;
+}
+.second{
+    border-image-width: 20px;
+    border-image-height: 20px;
+    
+}
+.third{
+    text-align: center;
+    color: green;
+    padding-top: 7%; 
+    font-size: 30px;
+}
+.fourth{
+    border-image-width: 20px;
+    
+}

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/e6/3c/59/e63c595dd1ad68d9699c73ffb7343d91.jpg);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.tab {
+    position: absolute;
+    top: 6px;
+    left: 8px;;
+    width: 30px;
+    padding: 20px 30px;
+}
+.search{
+    padding-top: 5%;
+}
+    
+.search1 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 20px;
+    width: 200%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+    padding: 20px 200px;
+}
+
+div.pikon{
+    padding-top: 2%;
+    padding-left: 80%;
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color:#fff;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 120px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 50px); 
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    /* font-size: 22px; */
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px; 
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:#ffc107;
+    color:#000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  
+
+}
+.loginbox a:hover{
+    color: #ffc107;
+}
+
+.button {
+    background-color:#fb2525;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 30px;
+    text-align: right;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin:  80px;
+    cursor: pointer; 
+}
+.pic{
+    padding-top:5px;
+
+}
+.container{
+    font-size: 50px;
+   
+}
+

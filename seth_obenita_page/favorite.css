@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo71FXO40P8uVFLtoQ6fC5r0IWEibvlMYaJw&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.one{
+    text-align: center;
+    color: darkorchid;
+    padding-top: 5%;
+    text-align: center;
+}
+
+table th{
+    background-color: aqua;
+    color: black;
+    padding: 10px 30px 10px 8px;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: red;  
+    padding-top: 2%;
+}
+table td{
+    color:violet;
+    border: black;
+    background-color: black;
+    text-align: center;
+    font-size: 22px;
+}
+ul{
+    padding-left: 40%;
+    border: solid black;
+    background-color: bisque;
+}
+ul li{
+    font-size: 40px;
+    font-style: oblique;
+    color: black;
+}
+ol{
+    padding-left: 40%;
+    border: solid black;
+    background-color: aquamarine;
+}
+ol li{
+    font-size: 40px;
+    font-style: oblique;
+    color: black;
+}
+.three{
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5%;
+}
