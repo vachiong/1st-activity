@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fd9800;
+  overflow: hidden;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+  background-color:#0A4158;
+  z-index: 10;
+  position: static;
+}
+nav img {
+  width: 50px;
+}
+nav a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Quicksand", sans-serif;
+}
+nav .selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .selection a {
+  margin: 10px;
+  transition: 0.8s all;
+  color: white;
+  font-weight: 500;
+}
+
+
+nav .selection a::after, nav .log a::after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: wheat;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+nav .selection a:hover::after, nav .log a:hover::after{
+  width: 100%; 
+  left: 0; 
+}
+
+nav .selection a:hover {
+  border-bottom: 2px solid black;
+}
+.main_dish:hover .dish_option {
+  display: grid;
+}
+nav .selection .dish_option {
+  display: none;
+  position: absolute;
+  /* width:20rem; */
+  padding: 10px;
+  background-color: #057187;
+}
+nav .selection .dish_option a{
+    color: black;
+    color: white;
+    
+}
+nav .selection .dish_option .donate_option {
+  position: absolute;
+  display: none;
+}
+nav .selection .dish_option_list:hover .donate_option {
+  position: absolute;
+  display: grid;
+  background-color: white;
+  top: 30px;
+  right: -160px;
+}
+nav .log a {
+  margin: 3px;
+  padding: 5px;
+  transition: all 0.4s;
+  color: white;
+  font-weight: 500;
+  
+}
+nav .log .login {
+  padding: 5px 10px;
+}
+nav .log a:hover {
+  border-bottom: 2px solid black;
+  /* color: white; */
+}
+nav .donate_option2 .donate_option2_li{
+    position: absolute;
+    right: -86px;
+    top: 0;
+    display: none;
+    background-color: white;
+}
+nav .donate_option2:hover .donate_option2_li{
+    display: grid;
+}
+.playdonate_btn{
+  background: #FFFFFF;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  height: 65px;
+  width:50%;
+  justify-content: center;
+  margin-top: 3rem;
+  position: relative;
+  right: -7rem;
+}
+.playdonate_btn a{
+  color: #FD9800;
+  font-size: 25px;
+   font-weight: bold;
+    text-decoration: none;
+}
+
+.div_rotate {
+  position: absolute;
+  width: 1790.1px;
+  height: 1122.46px;
+  left: 40rem;
+  top: 0;
+
+  background:#00B4FF ;
+  transform: rotate(134.09deg);
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
